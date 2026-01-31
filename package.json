@@ -1,17 +1,21 @@
 {
   "name": "clone-tabnews",
   "version": "1.0.0",
-  "description": "Para o projeto utilizaremos: - `node.js lts/hydrogen` (Note que LTS significa Long Term Support, ou seja, suporte a longo prazo) - `next@13.1.6` - `react@18.2.0` - `react-dom@18.2.0`",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "next dev"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "next": "^13.1.6",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "next": "^14.2.3",
+    "nextra": "2.13.4",
+    "nextra-theme-docs": "2.13.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   }
 }
